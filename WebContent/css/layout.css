@@ -5,6 +5,7 @@ header{
 	height: 67px;
 	background : 0 0 repeat-x url(../images/common/header_bg.png);
 	background-color: #fff;
+	
 }
 
 .header_wrap {
@@ -69,6 +70,7 @@ header{
 
 /**********************Main**********************************/
 .main {
+	clear: both;
 	width: 47.9166%;
 	height: 900px;
 	background-color: green;
@@ -85,4 +87,71 @@ footer {
 	margin-top: 80px;
 	background : repeat url(../images/common/header_bg.gif);
 
+}
+
+.footer_wrap{
+	
+	width: 47.9166%;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 132px;
+	padding : 0px;
+}
+.footer_wrap2 {
+	margin: 37px 0;
+}
+
+.footer_logo{
+	/* margin: 37px 0; */
+	float: left;
+}
+
+.footer_a{
+	margin: 0;
+	display : block;
+	/* line-height:72px; */
+	float: left;
+	margin-left: 30px;
+	padding: 0;
+	
+}
+
+.footer_text{
+	margin: 0;
+	display : block;
+	padding: 0;
+	
+}
+.footer_text >li {
+	padding: 0;
+	display: inline;
+	margin-left : 3px;
+	font-size: 11px;
+	color: #a9a9a9;
+	font-weight: bold;
+	
+}
+.footer_text2 {
+	padding: 0;
+	margin-top: 8px;
+	margin-left : 3px;
+	display : block;
+	font-size: 11px;
+	color: #a9a9a9;
+	font-weight: bold;
+	
+}
+.footer_text3 {
+	margin-left : 3px;
+	padding: 0;
+	display : block;
+	font-size: 10px;
+	color: #717171;
+}
+.footer_select{
+	float: right;
+	background-color: #4a4a4a;
+	color: #a9a9a9;
+	padding: 3px;
+	border-style: none; 
 }
